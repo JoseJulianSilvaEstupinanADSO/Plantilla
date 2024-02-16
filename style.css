@@ -1,0 +1,92 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--fond--Monserrate);
+}
+.img1{
+  width: 400px;
+  height: 400px;
+}
+:root{
+  --fond--Monserrate: "Montserrat", sans-serif;
+  --fond--Fredericka: "Fredericka the Great", serif;
+  --color--amarillo: #ffe001;
+  --color--parrafo: black;
+  --texto--1con5: 1.5em;
+  --borde--negro: black;
+
+}
+
+header{
+  background-color: var(--color--amarillo);
+}
+
+.menu__menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin: 50px;
+  margin-top: 0;
+}
+.menu__check{
+  display: none;
+}
+.menu__items{
+  white-space: 100px;
+  margin-left: 30px;
+}
+.menu__opciones{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.menu__telefono{
+  display: flex;
+}
+.menu__imgt{
+  height: 100px;
+}
+.telefono__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+}
+.menu__logo{
+  width: 400px;
+  margin-top: 50px;
+}
+.menu__lista{
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: space-evenly;
+  
+}
+.menu__opciones{
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.telefono__numero{
+  font-size: 2em;
+}
+.telefono__deliveri{
+  font-size: var(--texto--1con5);
+}
+.menu__link{
+  text-decoration: none;
+  padding: 10px 20px;
+  border: solid 1px var(--color-texto2);
+  color: var(--color-texto2);
+}
+.menu__link:hover{
+  border: solid 1px var(--color-texto2-hover);
+  color: var(--color-texto2-hover);
+}
