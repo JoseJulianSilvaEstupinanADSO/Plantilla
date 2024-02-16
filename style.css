@@ -90,3 +90,143 @@ header{
   border: solid 1px var(--color-texto2-hover);
   color: var(--color-texto2-hover);
 }
+.section__1{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.sec1__it1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.sec1__are{
+  font-style: italic;
+  font-size: 3em;
+}
+.sec1__dont{
+  font-family: var(--fond--Fredericka);
+  font-size: 5em;
+  margin-top: 10px;
+}
+.sec1__let{
+  font-weight: bold;
+  font-size: var(--texto--1con5);
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px var(--borde--negro);
+}
+.sec1__p2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.sec1__this{
+  font-family: var(--fond--Fredericka);
+  font-size: var(--texto--1con5);
+}
+.sec1__happy{
+  font-family: var(--fond--Fredericka);
+  font-size: var(--texto--1con5);
+}
+.sec1__suma{
+  margin-top: -10px;
+  font-family: var(--fond--Fredericka);
+  font-size: 3.7em;
+}
+.sec1__order{
+  margin-top: 60px;
+  width: 200px;
+  border: solid 2px var(--borde--negro);
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: var(--color--parrafo);
+  font-weight: bold;
+}
+.sec1__plato{
+  height: 600px;
+  margin-right: 100px;
+}
+.sec__abs1{
+  position: absolute;
+  width: 100px;
+  margin-left: -1528px;
+  margin-top: -55px;
+}
+.sec__abs2{
+  width: 80px;
+  position: absolute;
+  margin-top: 500px;
+  margin-right: 100px;
+}
+.sec__abs3{
+  position: absolute;
+  width: 100px;
+}
+.sec__abs4{
+  position: absolute;
+  width: 100px;
+  margin-top: 430px;
+  margin-left: -80px;
+}
+.sec__abs5{
+  position: absolute;
+  width: 400px;
+  margin-left: -1900px;
+  margin-top: 400px;
+}
+.section__2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  gap: 60px;
+}
+.sec2__desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2__title{
+  font-family: var(--fond--Fredericka);
+  font-size: 4em;
+  font-weight: normal;
+}
+.sec2__parrafo{
+  width: 70%;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+.color{
+  width: 100%;
+  height: 150px;
+  background-color: #e8e6a9;
+  position: absolute;
+  z-index: -1;
+  margin-top: 350px;
+}
+.sec2__cards{
+  display: flex;
+}
+.sec2__card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.card__parrafo{
+  width: 70%;
+}
+.card__link{
+  text-decoration: none;
+  color: var(--color--parrafo);
+  padding: 15px 40px;
+  background-color: var(--color--amarillo);
+  font-weight: bold;
+}
